@@ -1,0 +1,49 @@
+.valor{
+    display: flex;
+    justify-content: center;
+    padding: 3.5% 5% 2% 5%;
+    border: 3px solid rgb(192, 192, 192);
+    background-color: #d291bc;
+}
+
+.iframe-valor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding: 0% 5% 5% 5%;
+    text-align: center;
+}
+
+.iframe-valor iframe{
+    box-shadow: 1px 1px 5px 5px rgba(32,32,32,0.3);
+}
+
+.iframe-valor h1{
+    padding-bottom: 2rem;
+    font-family: 'Caprasimo', cursive;
+    color: #fff0ea;
+    text-shadow: 1px 1px 5px black;
+    font-size: 3rem;
+}
+
+
+
+@media screen and (max-width: 1300px){
+    .valor{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 5% 5%;
+        border: 3px solid rgb(192, 192, 192);
+        gap: 3rem;
+    }
+  
+  } 
+
+@media screen and (max-width: 700px){
+    .iframe-valor iframe{
+        width: 100%;
+    }
+} 
