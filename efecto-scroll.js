@@ -73,17 +73,7 @@ window.sr = ScrollReveal();
 
 
   window.sr = ScrollReveal();
-  sr.reveal('.red-social', {
+  sr.reveal('.contenedor-footer', {
     delay: 0,
     duration: 1000,
-    distance: '200px',
-    origin: 'left'
-  });
-
-  window.sr = ScrollReveal();
-  sr.reveal('.horarios', {
-    delay: 0,
-    duration: 1000,
-    distance: '200px',
-    origin: 'ring'
   });
