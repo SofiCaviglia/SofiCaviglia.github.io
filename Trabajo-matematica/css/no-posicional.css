@@ -1,0 +1,39 @@
+#cuerpo{
+
+}
+
+.titulo-no-posicional{
+    font-size: clamp(2.5rem, 5.5rem, 15vw);
+    text-align: center;
+    padding: 1rem;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    color: rgb(139, 84, 12);
+    font-family: 'Lilita One', cursive;
+}
+
+#no-posicional{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.primer-parrafo p{
+    display: flex;
+    font-size: clamp(1rem, 1.3rem, 5vw);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#no-posicional img{
+    display: flex;
+    width: clamp(1rem, 30rem, 95vw);
+}
+
+.primer-parrafo{
+    display: flex;
+    padding: 0 5rem;
+    gap: 5rem;
+}
