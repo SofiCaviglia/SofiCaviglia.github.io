@@ -23,7 +23,7 @@ window.sr = ScrollReveal();
   sr.reveal('.posicion', {
     delay: 0,
     duration: 1000,
-    distance: '200px',
+    distance: '100px',
     origin: 'ring'
   });
 
@@ -31,7 +31,7 @@ window.sr = ScrollReveal();
   sr.reveal('.valor-posicional', {
     delay: 0,
     duration: 1000,
-    distance: '200px',
+    distance: '100px',
     origin: 'left'
   });
 
@@ -39,7 +39,7 @@ window.sr = ScrollReveal();
   sr.reveal('.valor-posicional-2', {
     delay: 0,
     duration: 1000,
-    distance: '200px',
+    distance: '100px',
     origin: 'left'
   });
 
@@ -47,7 +47,7 @@ window.sr = ScrollReveal();
   sr.reveal('.posicion-2', {
     delay: 0,
     duration: 1000,
-    distance: '200px',
+    distance: '100px',
     origin: 'ring'
   });
 
@@ -55,7 +55,7 @@ window.sr = ScrollReveal();
   sr.reveal('.comparacion-sistemas', {
     delay: 0,
     duration: 1000,
-    distance: '200px',
+    distance: '100px',
     origin: 'left'
   });
 
